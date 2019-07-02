@@ -30,9 +30,9 @@ class ExampleUnitTest {
     fun test_factory() {
      //   val user = User.Factory.makeUser("Jonh Cena")
     //    val user2 = User.Factory.makeUser("Jonh Wick")
-        val user3 = User.Factory.makeUser("Jonh Silverhand")
-        val user2=user3.copy(id="2", lastName = "Cena", lastVisit = Date())
-        print("$user2 \n$user3")
+        val user3 = User.Factory.makeUser(" ")
+//        val user2=user3.copy(id="2", lastName = "Cena", lastVisit = Date())
+       print("$user3")
     }
 
     @Test
@@ -67,13 +67,13 @@ class ExampleUnitTest {
         val userView = user1.toUserView()
         userView.prinMe()
     }
-    @Test
-    fun test_abstract_factory(){
-        val user = User.makeUser("Алексей Бельский")
-        val txtMessage = BaseMessage.makeMessage(user, Chat("0"), payload = "any text message", type = "text")
-        val imgMessage = BaseMessage.makeMessage(user, Chat("0"),payload = "any image url", type = "image")
-
-        println(txtMessage.formatMessage())
-        println(txtMessage.formatMessage())
-    }
+//    @Test
+//    fun test_abstract_factory(){
+//        val user = User.makeUser("Алексей Бельский")
+//        val txtMessage = BaseMessage.makeMessage(user, Chat("0"), payload = "any text message", type = "text")
+//        val imgMessage = BaseMessage.makeMessage(user, Chat("0"),payload = "any image url", type = "image")
+//
+//        println(txtMessage.formatMessage())
+//        println(txtMessage.formatMessage())
+//    }
 }
