@@ -54,8 +54,9 @@ data class User (
         fun lastVisit(lastVisit: Date?) = apply { this.lastVisit = lastVisit }
         fun isOnline(isOnline: Boolean) = apply { this.isOnline = isOnline }
 
-        fun build() = if (id == null) makeUser(fullName = "Jonh Wick")
-        else User(id!!, firstName, lastName, avatar, rating, respect, lastVisit, isOnline)
+        fun build() = id?.let {
+            User(it, firstName, lastName, avatar, rating, respect, lastVisit, isOnline)
+        }
     }
 
 }
