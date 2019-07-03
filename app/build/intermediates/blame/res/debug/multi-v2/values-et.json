@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AnroidStudioProjects\\dev-intensive-2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+            "outputFile": "C:\\Git\\dev-intensive-2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\albel\\.gradle\\caches\\transforms-2\\files-2.1\\f075803c14079c549adbe0aef02748a9\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\alexey.belskii\\.gradle\\caches\\transforms-2\\files-2.1\\b0f0c15e40766fd1d7f52c46c4b92730\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\albel\\.gradle\\caches\\transforms-2\\files-2.1\\538c6270f6ed32df3db77a39eefae4db\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\alexey.belskii\\.gradle\\caches\\transforms-2\\files-2.1\\d52f87cf144d70c878882ffe579f2c0a\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

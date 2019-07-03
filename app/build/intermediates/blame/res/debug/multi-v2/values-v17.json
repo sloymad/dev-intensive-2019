@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AnroidStudioProjects\\dev-intensive-2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Git\\dev-intensive-2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\albel\\.gradle\\caches\\transforms-2\\files-2.1\\f075803c14079c549adbe0aef02748a9\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\alexey.belskii\\.gradle\\caches\\transforms-2\\files-2.1\\b0f0c15e40766fd1d7f52c46c4b92730\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
